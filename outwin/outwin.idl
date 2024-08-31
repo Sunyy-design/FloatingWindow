@@ -1,0 +1,10 @@
+// outwin.idl : outwin.dll 的类型库源
+// 此文件将由 MIDL 编译器处理以产生
+// 类型库(outwin.tlb)。
+
+[ uuid(5B1C4987-8110-4525-925A-145EF52402B4), version(1.0) ]
+library outwin
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+};

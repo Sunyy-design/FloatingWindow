@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UserApp", "UserApp\UserApp.vcxproj", "{6F68D8C3-CD2D-4ABE-9307-3B1BAB0F0E7D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{10EC15EF-73CF-4182-91A7-A905DAD53C4F} = {10EC15EF-73CF-4182-91A7-A905DAD53C4F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "outwin", "outwin\outwin.vcxproj", "{10EC15EF-73CF-4182-91A7-A905DAD53C4F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "seewin", "seewin\seewin.vcxproj", "{FE0E38BB-2967-4672-84E7-BA9FC5CD13A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F68D8C3-CD2D-4ABE-9307-3B1BAB0F0E7D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6F68D8C3-CD2D-4ABE-9307-3B1BAB0F0E7D}.Debug|Win32.Build.0 = Debug|Win32
+		{6F68D8C3-CD2D-4ABE-9307-3B1BAB0F0E7D}.Release|Win32.ActiveCfg = Release|Win32
+		{6F68D8C3-CD2D-4ABE-9307-3B1BAB0F0E7D}.Release|Win32.Build.0 = Release|Win32
+		{10EC15EF-73CF-4182-91A7-A905DAD53C4F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{10EC15EF-73CF-4182-91A7-A905DAD53C4F}.Debug|Win32.Build.0 = Debug|Win32
+		{10EC15EF-73CF-4182-91A7-A905DAD53C4F}.Release|Win32.ActiveCfg = Release|Win32
+		{10EC15EF-73CF-4182-91A7-A905DAD53C4F}.Release|Win32.Build.0 = Release|Win32
+		{FE0E38BB-2967-4672-84E7-BA9FC5CD13A5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FE0E38BB-2967-4672-84E7-BA9FC5CD13A5}.Debug|Win32.Build.0 = Debug|Win32
+		{FE0E38BB-2967-4672-84E7-BA9FC5CD13A5}.Release|Win32.ActiveCfg = Release|Win32
+		{FE0E38BB-2967-4672-84E7-BA9FC5CD13A5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
